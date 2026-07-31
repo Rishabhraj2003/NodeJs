@@ -10,7 +10,9 @@ const server=http.createServer((req,res)=>{
     console.log(req.httpVersion);
     console.log(req.socket);
     console.log(req.rawHeaders);
-    console.log(req.trailers);}
+    console.log(req.trailers);
+    console.console.log(req);
+    }
 );
 
 server.listen(3000,()=>{
